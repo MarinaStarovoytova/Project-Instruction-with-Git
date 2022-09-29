@@ -24,5 +24,5 @@ ___LICENSE: [MIT](./license.md)___
 
   8. [.gitignore](./content/ignore.md)
 
-  9. [Справочник](./content/terms.md)
+  9. [Словарь терминов для Git](./content/terms.md)
   
