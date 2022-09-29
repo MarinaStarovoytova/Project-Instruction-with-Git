@@ -1,6 +1,6 @@
 # Инструкция по работе с GIT
 
-LICENSE: [MIT](./license.md)
+___LICENSE: [MIT](./license.md)___
 
 ![git-logotip](./painting/git-logotip.jpeg)
 
@@ -8,17 +8,21 @@ LICENSE: [MIT](./license.md)
 
 ## Содержание
 
-  1.[Введение в GIT](./content/Introduction.md)
+  1. [Введение в GIT](./content/Introduction.md)
 
-  2.[Установка GIT](./content/installation.md)
+  2. [Установка GIT](./content/installation.md)
   
-  3.[Пошаговая инструкция GIT](./content/instruction.md)
+  3. [Пошаговая инструкция GIT](./content/instruction.md)
 
-  4.[Удаленный репозиторий GIT](./content/remotely.md)
+  4. [Удаленный репозиторий GIT](./content/remotely.md)
 
-  5.[Создание ветвей в GIT](./content/branch.md)
+  5. [Создание ветвей в GIT](./content/branch.md)
 
-  6.[Основные команды GIT](./content/teams.md)
+  6. [Основные команды GIT](./content/teams.md)
 
-  7.[Справочник](./content/directory.md)
+  7. [Основные команды ветвления, слияния и обновления](./content/branchMergeUpdate.md)
+
+  8. [.gitignore](./content/ignore.md)
+
+  9. [Справочник](./content/directory.md)
   

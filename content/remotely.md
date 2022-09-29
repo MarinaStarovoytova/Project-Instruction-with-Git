@@ -4,11 +4,11 @@
 
 ## 1. Подключение к удалённому репозиторию – `git remote add`
 
-Для того чтобы загрузить что-то в удалённый репозиторий, для начала нам нужно установить соединение с ним. Наш адрес репозитория будет https://github.com/tutorialzine/awesome-project. Конечно лучше самому создать собственный пустой репозиторий на GitHub, BitBucket или другом сервисе. Регистрация и установка могут занять время, но все сервисы предлагают пошаговые инструкции в помощь вам.
+Для того чтобы загрузить что-то в удалённый репозиторий, для начала нам нужно установить соединение с ним. Наш адрес репозитория будет <https://github.com/MarinaStarovoytova/Project-Instruction-with-Git>
 
 Для соединения нашего локального репозитория с удалённым на GitHub, мы должны в терминале вести следующую строку:
 
-    git remote add origin https://github.com/tutorialzine/awesome-project.git
+    git remote add origin https://github.com/MarinaStarovoytova/Project-Instruction-with-Git
 
 Один проект может иметь несколько удалённых репозиториев одновременно. Для их разделения нужно дать им разные имена. Традиционно основной удалённый GIT-репозиторий называют origin.
 
@@ -20,19 +20,13 @@
 
     git push origin master
 
-    Counting objects: 3, done.
-    Writing objects: 100% (3/3), 212 bytes | 0 bytes/s, done.
-    Total 3 (delta 0), reused 0 (delta 0)
-    To https://github.com/tutorialzine/awesome-project.git
-    * [new branch]      master -> master
-
 В зависимости от сервиса, используемого вами, необходимо пройти аутентификацию для `push`. Если все было сделано правильно, то когда вы зайдёте через веб-браузер в удаленный репозиторий, созданный ранее, там должен быть доступен Dev.txt.
 
 ## 3. Клонирование репозитория – `git clone`
 
 После клонирования другие люди смогут увидеть и изучить ваш удалённый репозиторий на GitHub. Также будет возможно загрузить его локально и иметь полную рабочую копию вашего проекта с командой git clone:
 
-    git clone https://github.com/tutorialzine/awesome-project.git
+    git clone https://github.com/MarinaStarovoytova/Project-Instruction-with-Git
 
 Новый локальный репозиторий создаётся автоматически, с GitHub-версией, настроенной как удалённый репозиторий.
 
@@ -41,9 +35,5 @@
 Если вы обновите свой репозиторий, другие смогут загрузить внесённые изменения с командой `pull`.
 
     git pull origin master
-
-    From https://github.com/tutorialzine/awesome-project
-     * branch            master     -> FETCH_HEAD
-    Already up-to-date.
 
 Поскольку никто не сохранил в репозиторий новые версии файлов с момента клонирования, изменений для загрузки нет.
