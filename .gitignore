@@ -1,6 +1,10 @@
 # Ignore IDE specific files
 .idea/
 .vscode/
+.suo
+*sln
+*ntvs*
+*.njsproj
 *.sw*
 
 # Ignore the node_modules directory
